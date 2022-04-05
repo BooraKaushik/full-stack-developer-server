@@ -4,11 +4,13 @@ export default [
     postedBy: { username: "NASA" },
     tuit: "In 2021, our @NASAPersevere Mars rover landed",
     likes: 345,
+    dislikes: 345,
   },
   {
     _id: "234",
     postedBy: { username: "NASA" },
     tuit: "Ingenuity helicopter takes flight.",
-    likes: 346785,
+    likes: 345,
+    dislikes: 346785,
   },
 ];
