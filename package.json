@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "full-stack-developer-server-node",
+  "version": "1.0.0",
+  "description": "Node.js HTTP Web server for thr Tuiter application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BooraKaushik/web-dev.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP"
+  ],
+  "author": "Kaushik Boora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BooraKaushik/web-dev/issues"
+  },
+  "homepage": "https://github.com/BooraKaushik/web-dev#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
