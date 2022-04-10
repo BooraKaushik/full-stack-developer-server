@@ -1,6 +1,6 @@
 import tuitsModel from "./tuits-model.js";
-export const findAllTuits = () => tuitsModel.find();
-export const createTuit = (tuit) => tuitsModel.create(tuit);
-export const deleteTuit = (tid) => tuitsModel.deleteOne({ _id: tid });
-export const updateTuit = (tid, tuit) =>
+export const findAllTuitsDao = () => tuitsModel.find();
+export const createTuitDao = (tuit) => tuitsModel.create(tuit);
+export const deleteTuitDao = (tid) => tuitsModel.deleteOne({ _id: tid });
+export const updateTuitDao = (tid, tuit) =>
   tuitsModel.updateOne({ _id: tid }, { $set: tuit });
